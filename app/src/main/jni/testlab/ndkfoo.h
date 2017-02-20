@@ -1,0 +1,1 @@
+void callbackStringJNI(const char *);

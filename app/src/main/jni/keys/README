@@ -1,0 +1,8 @@
+This directory contains the key and certificate for proxenet CA. proxenet
+handles its own on-the-fly SSL certificate generation using this CA root.
+
+You can either generate a brand new tree(recommended) using the `make` command
+or use your own private key and certificate.
+
+If your private key is password protected, remember to specify this password on
+the command when spawning `proxenet`.
